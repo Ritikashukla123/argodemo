@@ -8,3 +8,6 @@ spec:
   containers:
   - name: test-container
     image: nginx:latest
+    env:
+  - name: envvariable
+    value: "Admin@123"
